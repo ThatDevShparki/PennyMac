@@ -12,6 +12,10 @@ This repo has 2 programs within, each with their respective dependencies and inp
   - Soccer.py ( Run file)
   - soccer.dat (Input file)
 
+The repo also contains a text file, which contain the answer to the question asked in the email
+
+- Text File
+ - Q&A.txt
 
 ### Prerequisites
 
