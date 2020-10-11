@@ -15,7 +15,7 @@ This repo has 2 programs within, each with their respective dependencies and inp
 The repo also contains a text file, which contain the answer to the question asked in the email
 
 - Text File
- - Q&A.txt
+  - Q&A.txt
 
 ### Prerequisites
 
