@@ -1,3 +1,6 @@
 Is the way you wrote the second program influenced by writing the first?
 
-Yes, the way I wrote the second program is definitely influenced by the first. Since both the programs required reading and processing a files data thats in a .dat format. Both programs also had requirements to find the minimum from a data set after doing some computation and applying similar logic. 
+Yes, the way I wrote the second program is definitely influenced by the first. 
+Since both the programs required reading and processing a files data thats in a .dat format. 
+Both programs also had requirements to find the minimum from a data set after doing some
+computation and applying similar logic. 
