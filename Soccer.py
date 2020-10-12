@@ -13,8 +13,8 @@
 # based on the data present in the input file.
 # Sample output: "Least difference in 'For' and 'Against' Team: Aston_Villa
 # Assumptions made:   1) Currently the code is simple due to the file size
-# being very small, but for a larger file and faster processing I would have
-# used pandas.
+#                        being very small, but for a larger file and faster
+#                        processing I would have used pandas.
 #                     2) I am using absolute value in calcualting the 'For'
 #                        and 'Against' points as the email mentioned " Write
 #                        a program to print the name of the team with the
@@ -26,16 +26,17 @@
 #                          really tell you the difference but rather how much
 #                          point the other team made over yours.
 ########################################################################
-
-# Read the input file
-infile = open('soccer.dat')
 # soccer is a dictionary that will hold all the score data in order to help
 # compute.
 soccer = {}
-for line in infile:
-    list = line.split()
-    if len(list) >= 10:
-        soccer[list[1]] = [list[6], list[8]]
+# Read the input file
+with open('soccer.dat') as infile:
+    # Process the file and parse the data within to get data we need to
+    # calculate minimum difference in 'For' and 'Against' scores.
+    for line in infile:
+        list = line.split()
+        if len(list) >= 10:
+            soccer[list[1]] = [list[6], list[8]]
 # I keep track of which team has the lowest difference using empty string.
 MinDiffTeam = ""
 # Using CurrMin to keep track of the most minimum value after computing each
